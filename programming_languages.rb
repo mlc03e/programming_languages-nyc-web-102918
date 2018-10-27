@@ -3,6 +3,6 @@ require "pry"
 def reformat_languages(languages)
  new_hash = {} 
  languages[:ruby] = {:type => "interpreted", :style => [:oo]}
- puts new_hash << languages
-binding.pry
+  new_hash << languages
+
 end
