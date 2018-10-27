@@ -1,3 +1,8 @@
+require_pry
+
 def reformat_languages(languages)
-  # your code here
+ new_hash = {} 
+ languages[:ruby] = {:type => "interpreted", :style => [:oo]}
+ binding.pry
+ puts new_hash << languages
 end
